@@ -1,0 +1,334 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -70px;
+}
+.pluss {height: 150px;}
+.footer{
+  height: 50px;
+}
+a:hover, a:focus{
+text-decoration: none;
+}
+
+/* Start main rules */
+*{
+  box-sizing: border-box;
+}
+.container{
+  padding-left: 15px;
+  padding-right:15px;
+  margin: auto;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+ul{margin:0; padding:0;   list-style: none;}
+hr{margin:0}
+.clearfix{clear:both}
+a{text-decoration: none;}
+/* End main rules */
+
+/* Start media query */
+@media (max-width:767px){
+  .container{max-width:740px}
+}
+@media (min-width:991px){
+  .container{max-width:970px}
+}
+@media (min-width:1200px){
+  .container{max-width:1170px}
+}
+/* End media query */
+
+/* Start navbar */
+nav{background-color: #B53471}
+nav .logo{
+  float: left;
+  width: 45%;
+}
+nav .logo h2{
+  margin: 0;
+
+  padding: 10px 0;
+  color:#ddd;
+  text-transform: capitalize
+}
+nav .logo h2 a{color: #feeff9;}
+nav section h2:hover {color: white;}
+nav section a{
+  text-transform: capitalize;
+  color: #ececec;
+}
+nav ul{
+  float: left;
+  width: 50%;
+  padding: 13px 0;
+text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 5px;
+}
+nav ul li a{
+  text-transform: capitalize;
+  color: white;
+  padding: 5px;
+  transition: all .5s ease-in-out
+}
+
+nav ul li:hover a{
+  background-color: #fff;
+  color: #b53471;
+  border-radius: 5px;
+  text-decoration: none
+}
+/* End navbar */
+
+/* Start header  */
+header {
+  background:url('../images/header.jpg');
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  position: relative;
+}
+header .overlay{background-color:rgba(181, 52, 113, .8);}
+header section {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  height:200px
+}
+header section a{
+  color: #b53471;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 13px;
+  display: inline-block;
+  transition: all .5s ease-in-out
+}
+header section a:hover{
+  background-color: #b53471;
+  color: white
+}
+/* End header  */
+.la, .about, .my-design{background-color: #ffeff9}
+.la .fsec{
+  text-transform: capitalize;
+    padding: 50px 0;
+}
+.la h2,
+.about h2{
+  color: #c15c8a;
+  text-align: center;
+  padding-bottom: 30px
+}
+.la .conn{overflow: hidden;}
+.la .img{
+  float: left;
+  width: 55%;
+}
+.la .img img, .about .img img{width: 100%;   border-radius: 60%}
+.la .con{
+  float: left;
+  width: 45%;
+  color: #969696;
+  padding: 0 0px 41px 30px;
+
+}
+.about{    padding: 50px 0 0 0;}
+.about h3{color:#b53471; margin-bottom: 4px}
+.about span{font-size:13px}
+.about .con{overflow: hidden; text-transform: capitalize}
+.about .info{
+  float: left;
+    width: 67%;
+    color: #969696;
+    padding: 0 0px 41px 30px;
+}
+.about .img{
+  float: left;
+  width: 21%;
+  color: #969696;
+  padding: 0 0px 41px 30px;
+}
+.la .con{
+  float: left;
+  width: 35%;
+}
+/* Start my designs */
+.my-design{
+  padding:40px 0;
+  text-transform: capitalize;
+}
+.my-design h2{
+  font-weight: normal;
+  text-align: center;
+    color: #b53471;
+    font-size: 30px;
+}
+.my-design ul{margin-top:25px}
+.my-design ul li{
+  display: inline-block;
+  border:2px solid #D4CCCC;
+  color:#A7A7A7;
+  padding:10px;
+  border-radius: 5px;
+  margin-right:5px;
+  transition: all 1s ease-in-out
+}
+.my-design ul li.selected,
+.my-design ul li:hover{
+  background-color: #b53471;
+  border: 2px solid #b53471;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white
+}
+.my-design ul .selected{color:#fff}
+.my-design .gallery{
+  margin-top:25px;
+  overflow:hidden
+}
+
+.my-design .gallery .row > div{
+  width:49%;
+  float:left;
+  margin-top:25px;
+  position: relative;
+}
+.my-design .gallery .row > div .overlay
+{display: none; line-height: 250px; text-align: center;}
+.my-design .overlay a{
+    color: white;
+    text-align: center;
+
+}
+.my-design .gallery .row > div .heart{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  display: none
+}
+.my-design .gallery img{
+  width:100%;
+  display: inline-block;
+margin-top: 14px;
+}
+@media (min-width:991px){
+  .my-design h2{
+      font-size: 40px;
+  }
+  .my-design ul{margin-top:50px}
+  .my-design .gallery{
+    margin-top:50px;
+  }
+  .my-design .gallery .row > div{
+    width:32.6666%;
+    margin-bottom:12px;
+  }
+}
+.links .select
+{
+  background-color: #feeff9;
+  border: 2px solid #feeff9;
+  border-radius: 5px;
+}
+.links .select a{color:#B53471}
+/* End my designs */
+
+/* Start testimonails */
+.testi{
+  position: relative;
+  background:url('../images/test.jpg');
+  background-size:cover;
+  height:200px;
+  color:#fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+.testi .overlay{background-color:rgba(181, 52, 113, .8);}
+.testi .slider > section{
+  text-align: center;
+  display: none
+}
+
+/* End testimonails */
+/* Start footer */
+footer{
+  background-color: #a92762;
+color: white;
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align: center;
+  text-transform: capitalize
+}
+footer section i{
+  font-size: 10px !important;
+  margin-left: 8px;
+  cursor:pointer
+}
+@media (min-width:991px){
+  footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+
+  footer section i{
+    font-size: 20px !important;
+  }
+}
+/* End footer */
+.active{display: block}
+.designh2{margin-bottom: 10px}
+.my-design img{
+  display: inline-block;
+margin-top: 10px;
+border: 2px solid #ecb2cd;
+border-radius: 10px;
+}
+.register{
+  text-transform: capitalize;
+  position: relative;
+}
+.register h2{
+  color: #5bbfde;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.register form{
+  max-width: 350px;
+margin: auto;
+}
+.register form input{margin-bottom: 8px}
+.register span{
+  color: red;
+font-weight: bold;
+}
+.register .logg, .register .signn{
+  position: absolute;
+  cursor: pointer;
+    top: 125px;
+    left: 20px
+}
+.register .hidden{display: none}
+.mixx a:hover, a:focus, .mixx a{color:#b53471}
+.stylecomment{
+  margin-top:25px
+}
+.designone{margin-top:50px}
+.designone img{width:500px}
+.designone p{color:grey}

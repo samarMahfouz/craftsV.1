@@ -1,0 +1,238 @@
+/* Start bootstrap changes */
+.navbar{
+  margin-bottom: 0;
+  background-color: #630492;
+  border-radius: 0;
+  border: 0;
+}
+.navbar > .container-fluid .navbar-brand{
+  color: #fff;
+  padding-left: 5px;
+  text-transform: capitalize
+}
+.navbar-nav > li > a{color:white}
+.navbar-nav > li > a:hover{    background-color: #b387c3;}
+.navbar > .container-fluid .navbar-brand:hover{
+  color: #fff;
+  padding-left: 5px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus{
+       color: #fff;
+ }
+ .navbar{margin-bottom: 0}
+ .navbar-default{
+   background-color: #00a8ff;
+   border-radius: 0;
+   border-color: #00a8ff;
+ }
+ .navbar-default .navbar-brand{
+   font-family: 'Aref Ruqaa', serif;
+   font-size: 25px;
+   color:#f5f6fa
+ }
+ .navbar-default .navbar-nav > li > a{color: #f5f6fa;}
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus{
+  color: #35a8ff;
+  background-color: #f5f6fa;
+ }
+ .btn-info{
+       background-color: #35a8ff;
+ }
+ td a{color:white}
+ a:hover, a:focus {
+     color: #7d7d7d;
+     text-decoration: none;
+ }
+
+/* End bootstrap changes */
+/********************* Start main elements **************************/
+table, th, td {
+  border:2px solid #d8e7ea;
+  border-collapse: collapse;
+  text-transform: capitalize
+}
+table{
+margin: 5px auto;
+text-align: right;
+}
+table thead{
+  background-color:#fd79a8;
+  color:white;
+}
+table td{    padding:20px; }
+table tbody{color: #273c75;
+    font-size: 18px;}
+table tbody td{
+      background-color: #ecf0f1;
+}
+/********************* End main elements **************************/
+
+
+/********************* Start users page **************************/
+.all-c{padding-top:100px}
+.users-header{color:#fd79a8}
+.users-table .user-btn{
+  background-color: #35a8ff;
+  border-color: #35a8ff;
+  margin: 15px 97px;
+  color: white;
+}
+.users-header{color:#fd79a8}
+.users-table .user-btn{
+  background-color: #35a8ff;
+    border-color: #35a8ff;
+    margin: 15px 97px;
+    color: white;
+}
+/********************* End users page **************************/
+
+
+/********************* Start comments page **************************/
+.comments-table thead{background-color:#d63031}
+.comments-header{color:#d63031}
+/********************* End comments page **************************/
+
+/************* Start categories page ************/
+.add-sec{
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color:#f5f6fa;
+  color:#35a8ff
+}
+.add-sec form{margin-top:50px}
+/************* End categories page ************/
+/************* Start the login form ************/
+.login,   .add-sec{
+  padding-top:100px;
+  padding-bottom:100px;
+  background-color:#f5f6fa;
+  color:#35a8ff;
+}
+.login h2::after,
+ .signup h2::after,
+ .dashboard h2::after{display: none}
+ .login form{
+   max-width: 400px;
+   margin:0 auto;
+ }
+.login form .form-control, .signup form .form-control{margin-bottom: 10px; text-align: right}
+.contactform span{cursor: pointer}
+/************* End the login form ************/
+
+/************* Start dashboard page ************/
+.dashboard, .all-c{padding-top:100px; text-transform: capitalize;}
+.dashboard .dashhead{    color: #565390; margin-bottom: 45px !important}
+.dashboard h2{
+  color: #ffffff;
+  text-align: right;
+  padding-top: 10px;
+  font-size: 22px;
+  margin-bottom: 35px
+}
+
+.dashboard .contents{margin-bottom: 20px; border-radius: 5px;}
+.dashboard .users{background-color:#fd79a8}
+.dashboard .sections{background-color:#a29bfe}
+.dashboard .shares{background-color:#e84393}
+.dashboard .novil{background-color:#48dbfb}
+.dashboard .kasira{background-color:#00d2d3}
+.dashboard .storys{background-color:#D980FA}
+.dashboard .comments{background-color:#d63031}
+.dashboard .likes{background-color:#ffc048}
+.dashboard .khawater{background-color:#ff6b81}
+.dashboard .spand{
+  line-height: 4;
+  color: white;
+  font-size: 25px;
+}
+.sec-sec{margin-top:50px}
+.dashboard .last{
+  color: #34495e;
+      margin-bottom: 50px;
+      text-transform: capitalize
+}
+.dashboard .last .com-header{
+  color: #e84393;
+}
+.sec-sec h3{
+  font-family: 'Aref Ruqaa', serif;
+  padding-bottom: 23px;
+}
+.sec-sec span{line-height: 0; font-size: 16px}
+.dashboard .last .most p, .dashboard .last .most li{
+  padding: 10px;
+  font-size: 17px;
+}
+table, th, td {
+  border:2px solid #d8e7ea;
+  border-collapse: collapse;
+  text-transform: capitalize
+}
+table{
+margin: 5px auto;
+text-align: right;
+}
+table thead{
+  background-color:#fd79a8;
+  color:white;
+}
+table td{    padding:20px; text-align: center;}
+table tbody{color: #273c75;
+    font-size: 18px;}
+table tbody td{
+      background-color: #ecf0f1;
+}
+.users-header{color:#fd79a8}
+.users-table .user-btn{
+  background-color: #35a8ff;
+    border-color: #35a8ff;
+    margin: 15px 97px;
+    color: white;
+}
+.sections-table thead{background-color:#a29bfe}
+.sections-header{color:#a29bfe }
+.story-table thead{background-color:#00cec9}
+.story-header{color:#00cec9}
+.comments-table thead{background-color:#d63031}
+.comments-header{color:#d63031}
+.newpassword{
+  padding-top:100px;
+  max-width: 400px;
+  margin: 50px auto;
+}
+.newpassword .form-control{
+  padding: 10px 5px 10px 150px;
+  margin-bottom: 10px;
+  text-align: right;
+  display: inline-block
+}
+.add-sec form{margin-top:50px}
+.most ul li{margin-bottom: 8px}
+.sname{color:#ef5777}
+.srcls{border-bottom: 1px solid #d4d4d4}
+.fnamec{
+  background-color: grey;
+  padding: 10px;
+  border-radius: 0 38%;
+margin-right: 11px;
+  color: white;
+}
+.fcommentc{
+  color: #5a5a5a;
+  margin-right: 25px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+.fnc{
+  color:#afafaf
+  }
+.fcc{
+  display: inline-block;
+ width: 15%;
+ color: #e84393;
+ padding-right: 7px;
+}
+/************* End dashboard page ************/
